@@ -23,7 +23,7 @@ func NewSingletonClient() *RestClient {
 func (rc *RestClient) DoGetReqToSAPCloud(URI string) error {
 	req := fasthttp.AcquireRequest()
 	req.SetRequestURI(URI)
-	req.Header.Set("APIKey", "Xos0AuVGGL8jAVmqjM2MGLAIZi3lxw4k") // I'm so sick of that solution too
+	req.Header.Set("APIKey", "-") // I'm so sick of that solution too
 	req.Header.SetMethod(http.MethodGet)
 	res := fasthttp.AcquireResponse()
 	fasthttp.ReleaseResponse(res)
