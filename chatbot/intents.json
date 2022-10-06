@@ -1,0 +1,150 @@
+{
+	"intents": [
+		{
+			"tag": "purchase_order",
+			"patterns": [
+				"order number",
+				"reference number",
+				"PO number",
+				"What is the PO?",
+				"What is the purchase order?",
+				"What is the purchase order number?",
+				"What is the order id?",
+				"What is the reference number?"
+			],
+			"responses": [
+				"PurchaseOrder"
+			]
+		},
+		{
+			"tag": "Company_code",
+			"patterns": [
+				"What's the company code?",
+				"company id",
+				"enterprise number",
+				"enterprise id",
+				"company number",
+				"enterprise code",
+				"What is the company information?"
+			],
+			"responses": [
+				"CompanyCode"
+			]
+		},
+		{
+			"tag": "purchase_order_type",
+			"patterns": [
+				"What are order details",
+				"What is the order type",
+				"Order properties",
+				"What is the order type?",
+				"What is the order information?"
+			],
+			"responses": [
+				"PurchaseOrderType"
+			]
+		},
+		{
+			"tag": "purchasing_processing_status",
+			"patterns": [
+				"Which point the order is in?",
+				"What is the order status?",
+				"What is the order processing status?",
+				"What is the order processing step?",
+				"What is the order point?",
+				"What is the order step?",
+				"Is the order has been processed?",
+				"Is the order has been finished?"
+			],
+			"responses": [
+				"PurchasingProcessingStatus"
+			]
+		},
+		{
+			"tag": "purchase_order_date",
+			"patterns": [
+				"When is the date of purchase?",
+				"When is the delivery date?",
+				"What is the purchasing date?",
+				"What is the order date?",
+				"What is the order creation date?",
+				"At what hour the order was created?"
+			],
+			"responses": [
+				"PurchaseOrderDate"
+			]
+		},
+		{
+			"tag": "supplier",
+			"patterns": [
+				"supplier details",
+				"supplier number",
+				"supplier id",
+				"What is the supplier information?",
+				"Who is the supplier?"
+			],
+			"responses": [
+				"Supplier"
+			]
+		},
+		{
+			"tag": "order_language",
+			"patterns": [
+				"What's the order speaking language?",
+				"order origin",
+				"Where the order came from?",
+				"What is the order language?",
+				"What is the order country?",
+				"Which language the order is in?"
+			],
+			"responses": [
+				"Language"
+			]
+		},
+		{
+			"tag": "payments_terms",
+			"patterns": [
+				"Can I divide the payment?",
+				"payment terms",
+				"payment method",
+				"payment type",
+				"payment details",
+				"payment options",
+				"payment conditions",
+				"payment information",
+				"Can I pay in installments?"
+			],
+			"responses": [
+				"PaymentTerms"
+			]
+		},
+		{
+			"tag": "purchasing_organisation",
+			"patterns": [
+				"What's the customer id?",
+				"What is the client number",
+				"Who's the purchaser?",
+				"What's the id of the purchaser?",
+				"What is the purchasing organisation?",
+				"What is the client id?"
+			],
+			"responses": [
+				"PurchasingOrganization"
+			]
+		},
+		{
+			"tag": "document_currency",
+			"patterns": [
+				"How to pay?",
+				"What is the currency?",
+				"What is the currency of the order?",
+				"What is the currency of the payment?",
+				"What is the currency of the invoice?",
+				"Which currency is the order in?"
+			],
+			"responses": [
+				"DocumentCurrency"
+			]
+		}
+	]
+}
