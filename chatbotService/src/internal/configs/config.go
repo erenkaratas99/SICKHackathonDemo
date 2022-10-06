@@ -39,7 +39,7 @@ type KafkaExternalConfig struct {
 var cfgs = map[string]ServiceConfigs{
 	"prod": {
 		MongoDuration:  time.Second * 10,
-		MongoClientURI: "mongodb+srv://root:tesodevpair@cluster0.7vdm7jd.mongodb.net/test",
+		MongoClientURI: "-",
 		DBName:         "MessageDB",
 		ColName:        "messages",
 		Port:           ":8000",
@@ -60,7 +60,7 @@ var cfgs = map[string]ServiceConfigs{
 	},
 	"dev": {
 		MongoDuration:  time.Second * 10,
-		MongoClientURI: "mongodb+srv://root:tesodevpair@cluster0.7vdm7jd.mongodb.net/test",
+		MongoClientURI: "-",
 		DBName:         "MessageDB",
 		ColName:        "messages",
 		Port:           ":8000",
